@@ -22,3 +22,9 @@ Then git clone the repo, go to the application directory and launch the server.
 cd angular-github-projects
 ng serve --open
 ```
+
+## Screenshots
+![listview](images/listview.png)
+![listviewsearch](images/listviewsearch.png)
+![cardview](images/cardview.png)
+![cardviewsearch](images/cardviewsearch.png)
