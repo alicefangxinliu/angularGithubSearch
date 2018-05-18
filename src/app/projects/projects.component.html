@@ -14,8 +14,8 @@
                 <span id = "contents">
                     <b id = "stars">Stars:</b> <span class= "info">{{project.stargazers_count}}</span>
                 <br/> 
-                    Date created:<span class = "info">{{project.created_at}}</span> <br/> 
-                    Last pushed:<span class = "info">{{project.pushed_at}}</span> <br/> 
+                    Date created:<span class = "info">{{project.created_at | date:'MM/dd/yyyy'}}</span> <br/> 
+                    Last pushed:<span class = "info">{{project.pushed_at | date:'MM/dd/yyyy'}}</span> <br/> 
                     Description:<span class = "info">{{project.description}}</span>
                 </span>
             </div>
