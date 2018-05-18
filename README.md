@@ -25,9 +25,9 @@ ng serve --open
 
 ## Screenshots
 ### List view
-![listview](images/listview.png)
+![listview](images/list.png)
 ![listviewsearch](images/listviewsearch.png)
 
 ### Card view
-![cardview](images/cardview.png)
+![cardview](images/card.png)
 ![cardviewsearch](images/cardviewsearch.png)
