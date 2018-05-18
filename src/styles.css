@@ -118,7 +118,7 @@ nav a:hover{
 
 #contents{
   margin-left: 10px;
-  line-height: 10px;
+  max-line-height: 20px;
 }
 
 #stars {

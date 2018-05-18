@@ -1,0 +1,27 @@
+<h2>Most popular projects: </h2>
+
+<form id="filter">
+        <label>Filter projects by name:</label>
+        <input type="text" [(ngModel)]="term" name = "project"/>
+    </form>
+    
+    <ul id = "project-listing">
+        <li *ngFor="let project of projects | filter:term">
+            <div class = "single-project">
+                <h3>{{project.full_name}}</h3>
+                <span>
+                    ID: {{project.id}}
+                </span>
+                <br/>
+                <span id = "contents">
+                    <b id = "stars">Stars:</b> <span class= "info">{{project.stargazers_count}}</span>
+                <br/> 
+                    Date created:<span class = "info">{{project.created_at}}</span> <br/> 
+                    Last pushed:<span class = "info">{{project.pushed_at}}</span> <br/> 
+                    Description:<span class = "info">{{project.description}}</span>
+                </span>
+            </div>
+        </li>
+    </ul>
+  
+  

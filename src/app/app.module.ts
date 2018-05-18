@@ -7,18 +7,21 @@ import { ProjectsComponent } from './projects/projects.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { ProjectService } from './project.service';
 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { CardComponent } from './card/card.component';
 import { FilterPipe } from './filter.pipe';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatGridListModule, MatCardModule, MatMenuModule, MatIconModule, MatButtonModule } from '@angular/material';
+import { SearchPipe } from './search.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProjectsComponent,
     CardComponent,
-    FilterPipe
+    FilterPipe,
+    SearchPipe
   ],
   imports: [
     BrowserModule,
@@ -26,6 +29,7 @@ import { MatGridListModule, MatCardModule, MatMenuModule, MatIconModule, MatButt
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
+    NgbModule.forRoot()
   ],
   providers: [ProjectService],
   bootstrap: [AppComponent]

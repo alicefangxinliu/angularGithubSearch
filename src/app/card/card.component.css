@@ -1,0 +1,37 @@
+.container {
+    width: 90%;
+    margin: 10px auto;
+}
+
+button.accordion {
+    font-size: 15px;
+    width: 100%;
+    background-color: rgb(202, 227, 254);
+    font-family: verdana;
+    letter-spacing: 0.1em;
+    color: #606060;
+    text-align:left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-top: 20px;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    transition:background-color 0.2s linear;
+}
+
+button.accordion:hover{
+    background-color: #b6c1ff;
+}
+
+.accordion-content{
+    width: 99%;
+    padding-left: 2px;
+    margin:0;
+    border-left:2px solid rgb(202, 227, 254);
+    border-right:2px solid rgb(202, 227, 254);
+    border-bottom: 2px solid rgb(202, 227, 254);
+    height: 0px;
+    overflow: hidden;
+}
