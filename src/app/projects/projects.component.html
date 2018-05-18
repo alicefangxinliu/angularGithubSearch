@@ -1,10 +1,8 @@
 <h2>Most popular projects: </h2>
-
 <form id="filter">
-        <label>Filter projects by name:</label>
-        <input type="text" [(ngModel)]="term" name = "project"/>
-    </form>
-    
+    <label>Filter projects by name:</label>
+    <input type="text" [(ngModel)]="term" name = "project"/>
+</form>
     <ul id = "project-listing">
         <li *ngFor="let project of projects | filter:term">
             <div class = "single-project">

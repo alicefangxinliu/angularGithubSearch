@@ -12,8 +12,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CardComponent } from './card/card.component';
 import { FilterPipe } from './filter.pipe';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatGridListModule, MatCardModule, MatMenuModule, MatIconModule, MatButtonModule } from '@angular/material';
-import { SearchPipe } from './search.pipe';
+import { IdfilterPipe } from './idfilter.pipe';
 
 @NgModule({
   declarations: [
@@ -21,7 +20,7 @@ import { SearchPipe } from './search.pipe';
     ProjectsComponent,
     CardComponent,
     FilterPipe,
-    SearchPipe
+    IdfilterPipe
   ],
   imports: [
     BrowserModule,

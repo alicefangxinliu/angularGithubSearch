@@ -1,6 +1,10 @@
 <h2>Most popular projects: </h2>
+<form id="filter">
+  <label>Filter projects by repository id:</label>
+  <input type="text" [(ngModel)]="term" name = "project"/>
+</form>
 
-<div class="container" *ngFor="let project of projects | filter: term"> 
+<div class="container" *ngFor="let project of projects | idfilter: term"> 
     <div class="single-project">
 
    <button class="accordion">

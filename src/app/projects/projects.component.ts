@@ -23,7 +23,6 @@ export class ProjectsComponent implements OnInit {
    this.projectService.getProjects()
     .subscribe(data => {
       this.projects = data.items;
-      console.log(data.items);
     });
   
   }

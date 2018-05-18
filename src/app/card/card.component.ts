@@ -4,7 +4,7 @@ import { ProjectService } from '../project.service';
 
 import { FormsModule }   from '@angular/forms';
 
-import { FilterPipe } from '../filter.pipe';
+import { IdfilterPipe } from './idfilter.pipe';
 import { GitProject } from '../project';
 import { Subscriber } from 'rxjs';
 
@@ -17,8 +17,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./card.component.css'],
   
 })
-
-//declare var togglePanel: any;
 
 export class CardComponent implements OnInit {
  
