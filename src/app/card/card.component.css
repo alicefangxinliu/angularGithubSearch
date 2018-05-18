@@ -32,6 +32,5 @@ button.accordion:hover{
     border-left:2px solid rgb(202, 227, 254);
     border-right:2px solid rgb(202, 227, 254);
     border-bottom: 2px solid rgb(202, 227, 254);
-    height: 0px;
-    overflow: hidden;
+    
 }
